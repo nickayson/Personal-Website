@@ -52,6 +52,7 @@
               "src/assets"
             ],
             "styles": [
+              "C:/Users/Nick/Desktop/Personal-Website/NAWebsite/node_modules/bulma/css/bulma.css",
               "src/styles.scss"
             ],
             "scripts": []
