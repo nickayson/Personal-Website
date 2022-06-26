@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
     <section class="hero is-primary is-bold is-fullheight">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title has-text-white has-background-dark">
+          <p class="title has-text-white has-background-dark is-size-2">
             WELCOME TO MY WEBSITE!
-          </h1>
+          </p>
         </div>
       </div>
     </section>
