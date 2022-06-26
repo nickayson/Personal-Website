@@ -12,42 +12,85 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </div>
     </section>
+    
+    <!-- cards -->
+    <section class="section">
+      <div class="container">
+        <h3 class="title has-text-centered has-text-primary-dark">Some Useful Links!</h3>
+        <div class="columns mt-5is-8is-variable">
+          <div class="column is-4-tablet is-4-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-8">
+                <img src="assets/image/explore-github.jpg"alt="">
+              </div>
+              <div class="card-content">
+                <a href="https://github.com/nickayson">
+                <button class="button is-medium is-primary is-light has-text-centered">
+                  <span class="icon is-medium">
+                    <img src="assets/image/github-logo.png" alt="">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>GitHub</span>
+                </button>
+                </a>
+                <p class="title is-size-5">
+                  <br>
+                  This is my GitHub! Please click the button to see some of personal projects!
+                </p>
+              </div>
+            </div>
+          </div>
 
-  
-    <div class="card">
-      <div class="card-image">
-        <figure class="image is-4by3">
-          <img src="assets/image/explore-github.jpg" alt="Placeholder image" width=48>
-        </figure>
-      </div>
-      <div class="card-content is-dark">
-      <div class="media">
-        <div class="media-left">
-          <figure class="image is-48x48">
-            <img src="assets/image/60242602.png" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="media-content">
-          <p class="title is-4">Nicholas Ayson</p>
-          <p class="subtitle is-6">GitbHub Projects</p>
-        </div>
-        <a href="https://github.com/nickayson">
-        <button class="button is-medium is-primary is-light">
-          <span class="icon">
-            <i class="fab fa-github"></i>
-            <img src="assets/image/github-logo.png" alt="Placeholder image">
-          </span>
-          <span>GitHub</span>
-        </button>
-        </a>
-      </div>
+          <div class="column is-4-tablet is-4-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-8">
+                <img src="assets/image/LinkedIn_demo.webp"alt="">
+              </div>
+              <div class="card-content">
+                <a href="https://www.linkedin.com/in/nicholas-ayson/">
+                <button class="button is-medium is-primary is-light has-text-centered">
+                  <span class="icon is-medium">
+                    <img src="assets/image/LinkedIn_logo.png" alt="">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>LinkedIn</span>
+                </button>
+                </a>
+                <p class="title is-size-5">
+                  <br>
+                  This is my LinkedIn! Please click the button to see my past work experience! Feel free to connect with me!
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div class="content">
-          This is my GitHub page it includes all of my coding personal coding adventures!
-          <br>
+          <div class="column is-4-tablet is-4-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-8">
+                <img src="assets/image/LinkedIn_demo.webp"alt="">
+              </div>
+              <div class="card-content">
+                <a href="https://www.linkedin.com/in/nicholas-ayson/">
+                <button class="button is-medium is-primary is-light has-text-centered">
+                  <span class="icon is-medium">
+                    <img src="assets/image/LinkedIn_logo.png" alt="">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>LinkedIn</span>
+                </button>
+                </a>
+                <p class="title is-size-5">
+                  <br>
+                  This is my LinkedIn! Please click the button to see my past work experience! Feel free to connect with me!
+                </p>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
-    </div>
+    </section>
+
 
   `,
   styles: [ `
