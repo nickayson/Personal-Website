@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
      <div class="navbar is-dark">
       <div class="navbar-brand">
         <a class="navbar-item" routerLink="/">
-          <img src="assets/image/NALogoZoom.png">
+          <img src="assets/image/bulma-logo.png">
         </a>
       </div>
       <!-- menu -->
@@ -14,6 +14,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="navbar-end">
           <a class="navbar-item" routerLink="/">Home</a>
           <a class="navbar-item" routerLink="/contact">Contact</a>
+          <a class="navbar-item" routerLink="/about">About Me</a>
         </div>
       </div>
     </div>
